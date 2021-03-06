@@ -1,0 +1,237 @@
+/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
+ @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+ @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+ /*--------------------------------------------------------------------- style ---------------------------------------------------------------------*/
+  * {
+     box-sizing: border-box !important;
+}
+ body {
+     color: #666666;
+     font-size: 14px;
+     font-family: 'poppins', sans-serif;
+     line-height: 1.80857;
+     font-weight: normal;
+     overflow-x: hidden;
+}
+ a {
+     color: #1f1f1f;
+     text-decoration: none !important;
+     outline: none !important;
+     -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     -ms-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+}
+ h1, h2, h3, h4, h5, h6 {
+     letter-spacing: 0;
+     font-weight: normal;
+     position: relative;
+     padding: 0 0 10px 0;
+     font-weight: normal;
+     line-height: normal;
+     color: #111111;
+     margin: 0 
+}
+ h1 {
+     font-size: 24px 
+}
+ h2 {
+     font-size: 22px 
+}
+ h3 {
+     font-size: 18px 
+}
+ h4 {
+     font-size: 16px 
+}
+ h5 {
+     font-size: 14px 
+}
+ h6 {
+     font-size: 13px 
+}
+ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+     color: #212121;
+     text-decoration: none !important;
+     opacity: 1 
+}
+ ul, li, ol {
+     margin: 0px;
+     padding: 0px;
+     list-style: none;
+}
+ p {
+     margin: 0px;
+     font-weight: 300;
+     font-size: 15px;
+     line-height: 24px;
+}
+ a {
+     color: #222222;
+     text-decoration: none;
+     outline: none !important;
+}
+ img {
+     max-width: 100%;
+     height: auto;
+}
+/*--------------------------------------------------------------------- header area ---------------------------------------------------------------------*/
+.header {
+    background: #cd2e3b;
+    padding: 10px 0px;}
+nav.main-menu {
+    float: right;
+    margin-left: 0;
+    margin-right: -35px;
+}
+.menu-area-main li:hover a, .menu-area-main li:focus a, .menu-area-main li.active:hover a {
+    color: blue;
+}
+.menu-area-main li.active a {
+    color: black;
+}
+.right_cart_section {
+   float: right;
+   width: auto;
+}
+.right_cart_section ul {
+   float: left;
+   min-height: auto;
+   margin: 0;
+   padding: 12px 0 0;
+}
+.right_cart_section ul li {
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+    margin-right: 30px;
+}
+.main-menu ul>li {
+    display: inline-block;
+    position: relative;
+} 
+.main-menu ul > li a {
+    padding: 7px 18px;
+    line-height: 20px;
+    font-size: 16px;
+    display: block;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+}
+.main-menu ul li:last-child a {
+    padding-right: 0;
+}
+
+/*--------------------------------------------------------------------- Slider ---------------------------------------------------------------------*/
+ .relative {
+    position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translateY(-50%);
+    bottom: auto;
+     text-align: center;
+     padding: 0;
+}
+ .banner-main {
+    position: relative;
+}
+ .banner-main .carousel-caption h1 {
+     font-size: 60px;
+     line-height: 70px;
+     color: white;
+     font-weight: bold;
+}
+  h1 > .cur {
+     color: #cd2E3a;
+     font-weight: bold !important;
+} 
+.active > img {
+    width: 100%;
+    height: 500px;
+}
+/*--------------------------------------------------------------------- Content ---------------------------------------------------------------------*/
+ .context {
+     margin-top: 20px;
+     background-repeat: no-repeat;
+     background-position: center center;
+}
+ .contextheading {
+    text-align: center;
+     border:blue solid 1px;
+}
+ .contextheading h3 {
+     color: blue;
+     padding: 2px 0px;
+     margin: 2;
+     font-size: 30px;
+     font-weight: 200;
+}
+.contextcontent{
+     margin-top: 20px;
+     font-size: 15px;
+     color: black;
+}
+.contextcontent pre{
+    width: 1080px;
+    font-family: Poppins;
+    background-color:bisque;
+    margin-left: 30px;
+}
+#text {
+    margin-left: 150px;  
+}
+/*--------------------------------------------------------------------- Footer ---------------------------------------------------------------------*/
+ .footer {
+     background-color:black ;
+     padding-bottom: 36px;
+}
+ .footer .DataVivProject {
+    margin-top: 35px;
+}
+ .footer .DataVivProject h3 {
+     color: #fff;
+     font-size: 30px;
+     font-weight: 100 bold; 
+     line-height: 30px;
+     display: block;
+     padding-bottom: 35px;
+     text-transform: uppercase;
+     text-align: center;
+     border: #ddd solid 1px;
+     width: 420px;
+     margin: 0 auto;
+     padding: 25px 0;
+     bottom: 12px;
+}
+ ul.footerContent {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     width: 345px;
+     float: left;
+     text-align: center;
+}
+ ul.footerContent li {
+     float: right;
+     height: 50px;
+     color: #fff;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+}
+ ul.footerContent span {
+     font-size: 17px;
+     font-weight: 400;
+}
+ .copyright {
+     background-color: #fff;
+     padding: 10px 0px;
+}
+ .copyright p {
+     color: #120f0f;
+     font-size: 16px;
+     text-align: center;
+}
